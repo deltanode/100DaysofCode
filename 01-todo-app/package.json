@@ -1,0 +1,28 @@
+{
+  "name": "100daysofcode",
+  "version": "1.0.0",
+  "description": "Repository dedicated to my #100DaysOfCode journey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deltanode/100DaysofCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deltanode/100DaysofCode/issues"
+  },
+  "homepage": "https://github.com/deltanode/100DaysofCode#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
