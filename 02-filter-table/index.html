@@ -10,7 +10,16 @@
 <body>
     <section class="wrapper">
         <div class="search-section">
-            <input type="text" name="" id="searchInput" placeholder="Search employee ...">
+            <span>
+                <label for="filter">Search By: </label>
+                <select id="filter">
+                    <option value="0">Employee ID</option>
+                    <option value="1">Full Name</option>
+                    <option value="2">Department</option>
+                    <option value="3">Location</option>
+                </select>
+                <input type="text" name="" id="searchInput" placeholder="Search employee ...">
+            </span>
 
             <table id="employeeTable">
                 <tr>
@@ -51,12 +60,12 @@
                 </tr>
                 <tr>
                     <td>21587</td>
-                    <td>Cheena Pop</td>
+                    <td>Ram Kapoor</td>
                     <td>Finance</td>
                     <td>Noida</td>
                 </tr>
                 <tr>
-                    <td>11587</td>
+                    <td>11584</td>
                     <td>Jatin Ahuja</td>
                     <td>Finance</td>
                     <td>Delhi</td>
@@ -69,7 +78,7 @@
                 </tr>
                 <tr>
                     <td>11545</td>
-                    <td>Vijay Khan</td>
+                    <td>Vijay Goel</td>
                     <td>IT</td>
                     <td>Delhi</td>
                 </tr>

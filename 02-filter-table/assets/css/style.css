@@ -13,7 +13,7 @@ body{
     /* background: linear-gradient(120deg,#ffa600,#ff5f58 30%,#4044b7 88%,#6151a2); */
     /* background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%); */
     /* background: #2b2b2b; */
-    background: #F5F9FF;
+    /* background: #F5F9FF; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,18 +22,40 @@ body{
     width: 70vw;
     height: fit-content;
     margin-top: 3rem;
+    box-shadow: 5px 5px 10px rgba(210, 210, 212, 0.5), -5px -5px 10px rgba(210, 210, 212, 0.5);
 }
 
 .search-section{
     padding: 1rem;
 }
 
-table, input{
+table, span{
     width: 100%;
 }
 
-input{
+span{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
     margin-bottom: 1rem;
+}
+
+.search-section label{
+    flex-basis: 12%;
+    color: grey;
+    padding: 0.75rem;
+    border: 1px solid rgb(249, 246, 246);
+}
+
+.search-section select{
+    flex-basis: 20%;
+    padding: 0.75rem;
+    font-size: medium;
+}
+
+.search-section input{
+    flex-basis: 65%;
     padding: 0.75rem;
     font-size: medium;
 }
@@ -49,7 +71,7 @@ th, td{
 }
 
 th{
-    background-color: darkgray;
+    background-color: rgb(71, 121, 121);
     color: #FFFFFF;
 }
 
@@ -66,5 +88,9 @@ th:nth-child(4){
 }
 
 tr:hover{
-    background-color: antiquewhite;
+    background-color: rgb(182, 201, 201);
+}
+
+.hide{
+    display: none;
 }
