@@ -8,82 +8,95 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <section class="wrapper">
-        <div class="search-section">
-            <span>
-                <label for="filter">Search By: </label>
-                <select id="filter">
-                    <option value="0">Employee ID</option>
-                    <option value="1">Full Name</option>
-                    <option value="2">Department</option>
-                    <option value="3">Location</option>
-                </select>
-                <input type="text" name="" id="searchInput" placeholder="Search employee ...">
-            </span>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="https://github.com/deltanode/100DaysofCode/tree/main/02-filter-table" class="nav__link">Github</a>
+            <a href="https://github.com/deltanode/100DaysofCode/blob/main/02-filter-table/assets/js/script.js" class="nav__link">JavaScript</a>
+        </nav>
+    </header>
 
-            <table id="employeeTable">
-                <tr>
-                    <th>Emp. Id</th>
-                    <th>Full Name</th>
-                    <th>Department</th>
-                    <th>Location</th>
-                </tr>
-                <tr>
-                    <td>11524</td>
-                    <td>Ram Sharma</td>
-                    <td>Sales</td>
-                    <td>Gurgaon</td>
-                </tr>
-                <tr>
-                    <td>21584</td>
-                    <td>Meet Goel</td>
-                    <td>IT</td>
-                    <td>Cheenai</td>
-                </tr>
-                <tr>
-                    <td>11465</td>
-                    <td>Deepu Jham</td>
-                    <td>Sales</td>
-                    <td>Noida</td>
-                </tr>
-                <tr>
-                    <td>11498</td>
-                    <td>Preeti Deol</td>
-                    <td>Finance</td>
-                    <td>Gurgaon</td>
-                </tr>
-                <tr>
-                    <td>11487</td>
-                    <td>Robin Hood</td>
-                    <td>Sales</td>
-                    <td>Gurgaon</td>
-                </tr>
-                <tr>
-                    <td>21587</td>
-                    <td>Ram Kapoor</td>
-                    <td>Finance</td>
-                    <td>Noida</td>
-                </tr>
-                <tr>
-                    <td>11584</td>
-                    <td>Jatin Ahuja</td>
-                    <td>Finance</td>
-                    <td>Delhi</td>
-                </tr>
-                <tr>
-                    <td>21587</td>
-                    <td>Nitu Kapoor</td>
-                    <td>Sales</td>
-                    <td>Cheenai</td>
-                </tr>
-                <tr>
-                    <td>11545</td>
-                    <td>Vijay Goel</td>
-                    <td>IT</td>
-                    <td>Delhi</td>
-                </tr>
-            </table>
-        </div>
+    <!-- Search Record -->
+    <section class="container">
+        <main class="search">
+            <div class="search__input">
+                <span>
+                    <label for="filter">Search By: </label>
+                    <select id="filter">
+                        <option value="0">Employee ID</option>
+                        <option value="1">Full Name</option>
+                        <option value="2">Department</option>
+                        <option value="3">Location</option>
+                    </select>
+                </span>
+                <input type="text" name="" id="searchInput" placeholder="Search employee ...">
+            </div>
+            
+            <div class="search__table">
+                <table id="employeeTable" >
+                    <tr>
+                        <th>Emp. Id</th>
+                        <th>Full Name</th>
+                        <th>Department</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>11524</td>
+                        <td>Ram Sharma</td>
+                        <td>Sales</td>
+                        <td>Gurgaon</td>
+                    </tr>
+                    <tr>
+                        <td>21584</td>
+                        <td>Meet Goel</td>
+                        <td>IT</td>
+                        <td>Cheenai</td>
+                    </tr>
+                    <tr>
+                        <td>11465</td>
+                        <td>Deepu Jham</td>
+                        <td>Sales</td>
+                        <td>Noida</td>
+                    </tr>
+                    <tr>
+                        <td>11498</td>
+                        <td>Preeti Deol</td>
+                        <td>Finance</td>
+                        <td>Gurgaon</td>
+                    </tr>
+                    <tr>
+                        <td>11487</td>
+                        <td>Robin Hood</td>
+                        <td>Sales</td>
+                        <td>Gurgaon</td>
+                    </tr>
+                    <tr>
+                        <td>21587</td>
+                        <td>Ram Kapoor</td>
+                        <td>Finance</td>
+                        <td>Noida</td>
+                    </tr>
+                    <tr>
+                        <td>11584</td>
+                        <td>Jatin Ahuja</td>
+                        <td>Finance</td>
+                        <td>Delhi</td>
+                    </tr>
+                    <tr>
+                        <td>21587</td>
+                        <td>Nitu Kapoor</td>
+                        <td>Sales</td>
+                        <td>Cheenai</td>
+                    </tr>
+                    <tr>
+                        <td>11545</td>
+                        <td>Vijay Goel</td>
+                        <td>IT</td>
+                        <td>Delhi</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
     </section>
     <script src="assets/js/script.js"></script>
 </body>
