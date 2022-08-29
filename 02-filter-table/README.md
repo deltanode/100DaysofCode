@@ -1,1 +1,6 @@
-## Search Feature using Vanilla Javascript  <a href="https://deltanode.github.io/100DaysofCode/02-filter-table/">view</a>
+## Search & Filter Record
+
+
+| Project | Tech Stack | Action | Link |
+| --- | --- | --- | --- |
+| Search & Filter Data| Vanilla Javascript | [Code](02-filter-table) | [View](https://deltanode.github.io/100DaysofCode/02-filter-table/) |
