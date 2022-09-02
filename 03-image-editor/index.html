@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h2>Image Editor</h2>
+
+        <div class="wrapper">
+            <div class="editor">
+                <div class="filter">
+                    <label class="filter__title">Filter</label>
+                    <div class="filter__options">
+                        <button>Brightness</button>
+                        <button>Saturation</button>
+                        <button>Inversion</button>
+                        <button>Greyscale</button>
+                    </div>
+                    <div class="filter__slider">
+                        <div class="filter__info">
+                            <p>Brightness</p>
+                            <p>100%</p>
+                        </div>
+                        <input type="range" min="0" max="200">
+                    </div>
+                </div>
+                <div class="rotate">
+                    <label class="rotate__title">Rotate & Flip</label>
+                    <div class="rotate__options">
+                        <button><i class='bx bx-rotate-right'></i></button>
+                        <button><i class='bx bx-rotate-left' ></i></button>
+                        <button><i class='bx bx-reflect-horizontal'></i></button>
+                        <button><i class='bx bx-horizontal-center'></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preview">
+                <img class="preview__img" src="assets/img/image-placeholder.svg" alt="">
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="reset-btn">Reset Filters</button>
+            <div class="row">
+                <!-- <input type="file" accept="image/*"> -->
+                <button class="choose-btn">Choose Image</button>
+                <button class="save-btn">Save Image</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
