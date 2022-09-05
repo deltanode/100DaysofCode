@@ -23,19 +23,20 @@
     --big-font-size: 3rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
-    --normal-font-size:  .938 rem;
+    --normal-font-size: .938rem;
     --small-font-size: .75rem;
 }
 
 @media screen and (min-width:768px){
     :root{
-        --body-font-size: 6rem;
+        --big-font-size: 6rem;
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem;
         --normal-font-size: 1rem;
-        --small-font-size: 0.813;
+        --small-font-size: 0.813rem;
     }
 }
+
 
 /* margins */
 :root{
@@ -176,6 +177,7 @@ img{
     right: 0;
 }
 
+
 /* ==== HOME ==== */
 
 .home{
@@ -214,16 +216,17 @@ img{
     transform: .3s;
 }
 
-.home__img{
-    width: 260px;
-    position: absolute;
-    right:0;
-    bottom:0;
-}
-
 .button:hover{
     background-color: var(--first-color-alt);
 }
+
+.home__img{
+    position: absolute;
+    right:0;
+    bottom:0;
+    width: 260px;
+}
+
 
 /* ==== MEDIA QUERIES ===== */
 
