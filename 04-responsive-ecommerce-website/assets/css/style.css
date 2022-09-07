@@ -90,21 +90,29 @@ img{
     height: auto;
 }
 
-/* class css */
+/* reusable css */
 
-.secton{
+.section{
     padding: 3rem 0;
 }
 
-.secton__title{
-    /*  */
+.section__title{
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+
+.section__link{
+    display: block;
+    font-size: small;
+    cursor: pointer;
+    text-align: center;
 }
 
 /* layout */
 .grid{
     max-width: 1024px;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     column-gap: var(--mb-2);
     margin: 0 var(--mb-3);
     width: calc(100% - 3rem);
@@ -223,14 +231,10 @@ img{
     position: absolute;
     right:0;
     bottom:0;
-    width: 400px;
+    width: 300px;
 }
 
 /* ====Collections ==== */
-
-.collection{
-    margin-top: 3rem;
-}
 
 .collection__container{
     margin: 3rem 1.5rem;
@@ -272,11 +276,50 @@ img{
     text-decoration: underline;
 }
 
-
 .collection__img{
     width:100px;
 }
 
+/* ==== FEATURED ====*/
+.featured__product{
+    margin-top: var(--mb-3);
+    transition: 0.3s;
+}
+
+.featured__product:hover{
+    transform: translateY(-5px);
+}
+
+.featured__box{
+    background-color: var(--grey-color);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured__new{
+    position: absolute;
+    top:0;
+    left:0;
+    padding: var(--mb-1);
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+
+.featured__data{
+    text-align: center;
+}
+
+.featured__name{
+    text-transform: uppercase;
+    margin-bottom: var(--mb-1);
+}
+
+.featured__price{
+    color: var(--dark-color-light);
+    font-weight: var(--font-semi);
+}
 
 /* ==== MEDIA QUERIES ===== */
 
@@ -325,11 +368,11 @@ img{
 
     .home__title{
         line-height: .8;
-        letter-spacing: 1.5rem;
+        font-size: 3.5rem;
     }
 
     .home__img{
-        width: 520px;
+        width: 450px;
     }
 
     /* colletion */
@@ -350,10 +393,15 @@ img{
         font-size: var(--h1-font-size);
     }
 
+    /* featured */
+    .featured__container{
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1023px){
     .grid{
         margin: 0 auto;
     }
@@ -363,6 +411,8 @@ img{
     }
 
     .home__img{
+        width: 520px;
         right: 15%;
     }
+
 }
