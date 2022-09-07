@@ -408,9 +408,31 @@ img{
 }
 
 
-/* ==== SPONSERS ==== */
+/* ==== SPONSORS ==== */
+.sponsors__container{
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.sponsors__logo{
+    /* background-color: wheat; */
+    justify-self: center;
+    /* display: flex;
+    justify-content: center ; */
+}
+
+.sponsors__logo img{
+    width: 5rem;
+    opacity: 0.7;
+}
+
+.sponsors__logo img:hover{
+    opacity: 1;
+}
 
 /* ==== FOOTER ==== */
+
+
 
 /* ==== MEDIA QUERIES ===== */
 
@@ -511,6 +533,10 @@ img{
         margin: 2rem auto;
     }
 
+    /* sponsors */
+    .sponsors__container{
+        grid-template-columns: repeat(4,1fr);
+    }
 }
 
 
