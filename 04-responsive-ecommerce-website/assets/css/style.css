@@ -106,6 +106,7 @@ img{
     font-size: small;
     cursor: pointer;
     text-align: center;
+    color: var(--dark-color-light);
 }
 
 /* layout */
@@ -379,6 +380,33 @@ img{
 
 }
 /* ==== NEWSLETTER ==== */
+.newsletter__container{
+    justify-items: center;
+}
+
+.newsletter__container .section__title{
+    font-size: var(--h1-font-size);
+}
+
+.newsletter__form{
+    margin-top: var(--mb-2);
+    justify-self: stretch;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.newsletter__input{
+    padding: var(--mb-2);
+    background-color: var(--grey-color);
+    border: none;
+    outline: none;
+}
+
+
+.newsletter__form .button{
+    text-align: center;
+}
+
 
 /* ==== SPONSERS ==== */
 
@@ -471,8 +499,18 @@ img{
         font-size: var(--h1-font-size);
         letter-spacing: 0.3rem;
     }
-    
+
     /* New Arrivals */
+    .new__container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /* Newsletter */
+    .newsletter__form{
+        width:400px;
+        margin: 2rem auto;
+    }
+
 }
 
 
@@ -484,13 +522,15 @@ img{
     .home__data{
         padding-left: 7rem;
     }
-
+    
     .home__img{
         width: 520px;
         right: 15%;
     }
     
+    /* New Arrivals */
     .new__container{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
 }
