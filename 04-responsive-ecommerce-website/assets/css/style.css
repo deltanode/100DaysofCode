@@ -321,6 +321,32 @@ img{
     font-weight: var(--font-semi);
 }
 
+/* ==== OFFER ===== */
+.offer__container{
+    background-color: var(--dark-color-light);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer__data{
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.offer__title{
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: var(--font-semi);
+}
+
+.offer__detail{
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    margin-bottom: var(--mb-3);
+}
+
 /* ==== MEDIA QUERIES ===== */
 
 @media screen and (min-width:768px){
@@ -398,6 +424,18 @@ img{
         display: flex;
         justify-content: space-between;
     }
+
+    /* offer */
+    .offer__data{
+        padding: 6rem 0;
+    }
+    
+    .offer__title{
+        font-size: var(--h1-font-size);
+        letter-spacing: 0.3rem;
+    }
+    
+    /* New Arrivals */
 }
 
 
