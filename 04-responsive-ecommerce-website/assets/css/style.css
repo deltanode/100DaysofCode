@@ -347,6 +347,43 @@ img{
     margin-bottom: var(--mb-3);
 }
 
+/* ==== NEW ARRIVALS ==== */
+.new__container{
+    padding-top: var(--mb-4);
+    gap: 2rem;
+}
+
+.new__box{
+    background-color: var(--grey-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.new__link{
+    position: absolute;
+    top:100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.new__box:hover .new__link{
+    top:0;
+
+}
+/* ==== NEWSLETTER ==== */
+
+/* ==== SPONSERS ==== */
+
+/* ==== FOOTER ==== */
+
 /* ==== MEDIA QUERIES ===== */
 
 @media screen and (min-width:768px){
@@ -452,5 +489,8 @@ img{
         width: 520px;
         right: 15%;
     }
-
+    
+    .new__container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
