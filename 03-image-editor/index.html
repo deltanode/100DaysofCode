@@ -5,24 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Editor</title>
-    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Image Editor</h2>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__menu">
+                <p class="nav__code">Code:</p>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="https://github.com/deltanode/100DaysofCode/blob/main/03-image-editor/index.html" class="nav__link">HTML</a></li>
+                    <li class="nav__item"><a href="https://github.com/deltanode/100DaysofCode/blob/main/03-image-editor/assets/css/style.css" class="nav__link">CSS</a></li>
+                    <li class="nav__item"><a href="https://github.com/deltanode/100DaysofCode/blob/main/03-image-editor/assets/js/script.js" class="nav__link">JavaScript</a></li>
+                </ul>
+            </div>
+
+            <a href="https://github.com/deltanode/100DaysofCode/tree/main/03-image-editor" class="nav__logo">Github</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="container">
+        <h2 class="title">Image Editor</h2>
 
         <div class="wrapper">
             <div class="editor">
                 <div class="filter">
-                    <label class="filter__title">Filter</label>
+                    <label class="filter__title">Filters</label>
                     <div class="filter__options">
-                        <button>Brightness</button>
+                        <button class="active">Brightness</button>
                         <button>Saturation</button>
                         <button>Inversion</button>
                         <button>Greyscale</button>
@@ -55,11 +73,11 @@
             <button class="reset-btn">Reset Filters</button>
             <div class="row">
                 <!-- <input type="file" accept="image/*"> -->
-                <button class="choose-btn">Choose Image</button>
+                <button class="choose-btn">Choose Image</button    ton>
                 <button class="save-btn">Save Image</button>
             </div>
         </div>
-    </div>
+    </main>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
