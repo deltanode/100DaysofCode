@@ -6,9 +6,9 @@
 
 ## Quick Reference
 
-| Project | Source Code |Action |
-| --- | --- | --- |
-| Image Editor | <ul><li>- [x] [HTML](index.html)</li><li>- [x] [CSS](assets/css/style.css)</li><li>- [x] [JavaScript](assets/js/script.js)</li></ul> | [➥Live Preview](https://deltanode.github.io/100DaysofCode/03-image-editor/) |
+| Project | Tech Stack | Source Code |Action |
+| --- | --- | --- |--- |
+| Image Editor | Vanilla Javascript | <ul><li>- [x] [HTML](index.html)</li><li>- [x] [CSS](assets/css/style.css)</li><li>- [x] [JavaScript](assets/js/script.js)</li></ul> | [➥Live Preview](https://deltanode.github.io/100DaysofCode/03-image-editor/) |
 
 ## Project Structure 📂
 ```
