@@ -1,4 +1,4 @@
-# #100DaysofCode
+# 100DaysofCode
 Repository dedicated to my #100DaysOfCode journey 
 
 | S.No | Project | Tech Stack | Action | Link |
