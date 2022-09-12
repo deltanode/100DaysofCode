@@ -2,6 +2,7 @@
 
 - Responsive eCommerce Website Using HTML, CSS and JavaScript.
 - Developed first with the Mobile First methodology, then for desktop.
+- Used BEM (Block-Element-Modifier) naming convention standard for CSS.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
 
