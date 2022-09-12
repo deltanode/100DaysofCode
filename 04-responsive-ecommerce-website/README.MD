@@ -24,4 +24,4 @@
 ```
 
 ## Preview
-![Preview](../preview/04-ecommerce-website-full.png)
+![Preview](../preview/04-ecommerce-website-full-screenshot.png)
