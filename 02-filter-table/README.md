@@ -4,7 +4,7 @@
 
 | Project | Tech Stack | Source Code | Link |
 | --- | --- | --- |--- |
-| Search & Filter Data| Vanilla Javascript | <ul><li>- [x] [HTML](index.html)</li><li>- [x] [CSS](assets/css/style.css)</li><li>- [x] [JavaScript](assets/js/script.js)</li></ul> |[➥Live Preview](https://deltanode.github.io/100DaysofCode/02-filter-table/) |
+| Search & Filter Data| Vanilla Javascript | <ul><li>- [x] [HTML](index.html)</li><li>- [x] [CSS](assets/css/style.css)</li><li>- [x] [JavaScript](assets/js/script.js)</li></ul> |[🔴 Live Preview](https://deltanode.github.io/100DaysofCode/02-filter-table/) |
 
 
 
@@ -20,8 +20,7 @@
 ├── assets
 │   ├── css
 │   │   └── style.css
-│   ├── js
-│   │   └── script.js
-│   └── img
+│   └── js
+│       └── script.js
 └── README.md
 ```
