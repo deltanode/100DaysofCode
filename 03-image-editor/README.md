@@ -8,7 +8,10 @@
 
 | Project | Tech Stack | Source Code |Action |
 | --- | --- | --- |--- |
-| Image Editor | Vanilla Javascript | <ul><li>- [x] [HTML](index.html)</li><li>- [x] [CSS](assets/css/style.css)</li><li>- [x] [JavaScript](assets/js/script.js)</li></ul> | [➥Live Preview](https://deltanode.github.io/100DaysofCode/03-image-editor/) |
+| Image Editor | Vanilla Javascript | <ul><li>- [x] [HTML](index.html)</li><li>- [x] [CSS](assets/css/style.css)</li><li>- [x] [JavaScript](assets/js/script.js)</li></ul> | [🔴 Live Preview](https://deltanode.github.io/100DaysofCode/03-image-editor/) |
+
+## Preview
+![Preview](../preview/03-image-editor.png)
 
 ## Project Structure 📂
 ```
