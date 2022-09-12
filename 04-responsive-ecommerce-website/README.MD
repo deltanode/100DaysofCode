@@ -9,7 +9,7 @@
 
 | Title | Category | Source Code |Action |
 | --- | --- | --- |--- |
-| eCommerce Website | Responsive Website Templates | <ul><li>- [x] [HTML](index.html)</li><li>- [x] [CSS](assets/css/style.css)</li><li>- [x] [JavaScript](assets/js/script.js)</li></ul> | [➥Live Preview](https://deltanode.github.io/100DaysofCode/04-responsive-ecommerce-website/) |
+| eCommerce Website | Responsive Website Templates | <ul><li>- [x] [HTML](index.html)</li><li>- [x] [CSS](assets/css/style.css)</li><li>- [x] [JavaScript](assets/js/script.js)</li></ul> | [🔴 Live Preview](https://deltanode.github.io/100DaysofCode/04-responsive-ecommerce-website/) |
 
 ## Project Structure 📂
 ```
@@ -22,3 +22,6 @@
 │   └── img
 └── README.md
 ```
+
+## Preview
+![Preview](../preview/04-ecommerce-website-full.png)
