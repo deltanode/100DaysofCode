@@ -121,6 +121,12 @@ button:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07), -5px -5px 10px rgba(0, 0, 0, 0.07);
 }
 
+.container.disable :where(.editor, .reset-btn, .save-btn){
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+
 .wrapper{
     display: grid;
     grid-template-columns: 300px 1fr;
