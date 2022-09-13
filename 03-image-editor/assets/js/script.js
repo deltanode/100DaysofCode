@@ -6,7 +6,9 @@ allFilterBtn = document.querySelectorAll(".filter__options button"),
 allRotateAndFlipBtn = document.querySelectorAll(".rotate__options button"),
 filterLable = document.querySelector(".filter__info p"),
 filterValue = document.querySelector(".filter__info p:nth-child(2)"),
-filterSlider = document.querySelector(".filter__slider input")
+filterSlider = document.querySelector(".filter__slider input"),
+saveBtn = document.querySelector(".save-btn");
+
 
 let brightness="100", saturation="100", inversion="0", grayscale="0";
 let rotate = 0, flipHorizontal = 1, flipVertical = 1;
@@ -18,6 +20,7 @@ allFilterBtn.forEach(btn => btn.addEventListener("click",updateFilter));
 filterSlider.addEventListener("input", updateSliderValue);
 allRotateAndFlipBtn.forEach(btn => btn.addEventListener("click",updateRotationAndFlip));
 resetBtn.addEventListener("click", resetValues);
+saveBtn.addEventListener("click", saveImage);
 
 
 function loadImage(){
@@ -96,14 +99,13 @@ function updateRotationAndFlip(e){
     } else{
         flipVertical = flipVertical === 1 ? -1 : 1;
     }
-    applyFilter()
+    applyFilter();
 }
 
 
 function applyFilter(){
-    previewImg.style.transform = `rotate(${rotate}deg) scale(${flipVertical}, ${flipHorizontal})`;
     previewImg.style.filter = `brightness(${brightness}%) saturate(${saturation}%) invert(${inversion}%) grayscale(${grayscale}%)`;
-    console.log(rotate)
+    previewImg.style.transform = `rotate(${rotate}deg) scale(${flipVertical}, ${flipHorizontal})`;
 }
 
 
@@ -117,8 +119,34 @@ function resetValues(){
     flipHorizontal = 1;
     flipVertical = 1;
     // apply above default values
-    allFilterBtn[0].click()
-    applyFilter()
+    allFilterBtn[0].click();
+    applyFilter();
 }
 
 
+function saveImage(){
+    // create a canvas
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+    canvas.width = previewImg.naturalWidth;
+    canvas.height = previewImg.naturalHeight;
+
+    //  apply filter, rotate & flip
+    ctx.filter = `brightness(${brightness}%) saturate(${saturation}%) invert(${inversion}%) grayscale(${grayscale}%)`;
+    ctx.scale(flipHorizontal, flipVertical);
+    if(rotate !== 0){
+        ctx.rotate(rotate * Math.PI / 180);
+    }
+    ctx.transform(canvas.width/2, canvas.height/2);
+
+    // create image 
+    ctx.drawImage(previewImg, -canvas.width/2, canvas.height/2, canvas.width, canvas.height);
+
+    // create a anchor tag having the link of the newly created image
+    const link = document.createElement("a")
+    link.download = "new-image.jpg"
+    link.href = canvas.toDataURL();
+
+    // download image
+    link.click();
+}
