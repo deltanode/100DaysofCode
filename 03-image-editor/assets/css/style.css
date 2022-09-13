@@ -197,6 +197,7 @@ button:hover{
 
 .preview__img{
     border-radius: 0.5rem;
+    /* filter: brightness(150%) invert(10%) saturate(20) grayscale(100%); */
 }
 
 /* ==== Controls Section ==== */
