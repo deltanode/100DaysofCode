@@ -1,4 +1,4 @@
-/*=============== VARIABLES CSS ===============*/
+/*=============== CSS VARIABLES ===============*/
 :root{
     --header-height: 3.5rem; /* 56px */
     
@@ -76,7 +76,9 @@ textarea{
 body{
     margin: var(--header-height) 0 0 0;
     background-color: var(--body-color);
-    color: var(--text-color)
+    /* background: linear-gradient(180deg,transparent,hsla(0,0%,95%,.29) 47.39%,#fff 65%),linear-gradient(90deg,#f9ddf1 .07%,#e5e1ff 16.73%,#daedff 34.48%,#e2f4e3 49.98%,#ebf5d8 66.12%,#faf2da 81.95%,#fbe5d8 99.9%) no-repeat; */
+    color: var(--text-color);
+    height: 100vh;
 }
 
 button{
@@ -113,13 +115,13 @@ img{
 }
 
 .section__title,
-.section__title__center{
+.section__title--center{
     font-size: var(--h2-font-size);
     margin-bottom: var(--mb-2);
     line-height: 140%;
 }
 
-.section__title__center{
+.section__title--center{
     text-align: center;
 }
 
@@ -139,9 +141,98 @@ img{
 
 /*=============== HEADER ===============*/
 
+.header{
+    width: 100%;
+    background-color: var(--body-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+}
+
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo,
+.nav__close,
+.nav__toggle{
+    color: var(--title-color);
+}
+
+.nav__logo{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    transition: 0.3s;
+}
+
+.nav__logo-icon{
+    font-size: 1.15rem;
+    color: var(--first-color);
+}
+
+.nav__logo:hover{
+    color: var(--first-color);
+}
+
+.nav__toggle{
+    display: inline-flex;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px){
+    .nav__menu{
+        position: fixed;
+        background-color: var(--container-color);
+        width: 80%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+        padding: 4rem 0 0 3rem;
+        border-radius: 1rem 0 0 1rem;
+        transition: 0.3s;
+        z-index: var(--z-fixed);
+    }
+}
+
+.nav__close{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.nav__link{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: 0.3s;
+}
+
+.nav__link:hover{
+    color: var(--first-color);
+}
+
+/* Show Menu */
+.show-menu{
+    right: 0;
+}
 
 
 
-
-/*===============  ===============*/
-/*=====  =====*/
+/*===============   ===============*/
+/*=====   =====*/
