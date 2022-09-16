@@ -1,4 +1,4 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/deltanode/frontend-mentor-challenges)
+![GitHub repo size](https://img.shields.io/github/repo-size/deltanode/100DaysofCode)
 [![Twitter Follow](https://img.shields.io/twitter/follow/yogesh_yadv?style=social)](https://twitter.com/intent/follow?screen_name=yogesh_yadv)
 
 <!--
