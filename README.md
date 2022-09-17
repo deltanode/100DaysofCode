@@ -1,9 +1,14 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/deltanode/100DaysofCode)
+[![Github Issues](https://img.shields.io/github/issues/deltanode/100DaysofCode)](https://github.com/deltanode/100DaysofCode/issues)
 [![Twitter Follow](https://img.shields.io/twitter/follow/yogesh_yadv?style=social)](https://twitter.com/intent/follow?screen_name=yogesh_yadv)
 
 <!--
 ![GitHub stars](https://img.shields.io/github/stars/deltanode/frontend-mentor-challenges?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/deltanode/frontend-mentor-challenges?style=social)
+
+![Github fork](https://img.shields.io/github/forks/deltanode/100DaysofCode)
+![Github stars](https://img.shields.io/github/stars/deltanode/100DaysofCode)
+[![Github licence](https://img.shields.io/github/license/deltanode/100DaysofCode)](https://github.com/deltanode/100DaysofCode/blob/master/LICENSE.md)
 -->
 
 # 100DaysofCode
