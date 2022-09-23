@@ -8,12 +8,18 @@ import List from "./components/List"
 import Footer from "./components/Footer"
 
 function Main() {
+  let taskList = [
+    { taskName: "Sample Data 1", taskCategory: "Official" },
+    { taskName: "Sample Data 22", taskCategory: "Officialsdsd" }
+  ]
   return (
     <>
       <Header />
       <main className="main">
         <Form />
-        <List />
+        {taskList.map(data => (
+          <List taskName={data.taskName} taskCategory={data.taskCategory} />
+        ))}
       </main>
       <Footer />
     </>

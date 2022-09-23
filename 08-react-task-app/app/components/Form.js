@@ -4,7 +4,7 @@ function Form() {
   return (
     <section className="task container">
       <h1 className="task__title">Task List</h1>
-      <form action="#" className="task__form">
+      <form action="#" className="task__form" autoComplete="off">
         <div>
           <label className="task__label" for="taskName">
             Task
