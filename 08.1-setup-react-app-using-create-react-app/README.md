@@ -1,5 +1,7 @@
 # Create a New React App (using Create React App)
 
+[Create React App](https://github.com/facebook/create-react-app#creating-an-app): Set up a modern web app by running one command.
+
 It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production. You’ll need to have Node >= 14.0.0 and npm >= 5.6 on your machine. To create a project, run:
 
 **Note**: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.
