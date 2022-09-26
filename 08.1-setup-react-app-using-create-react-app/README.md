@@ -1,4 +1,49 @@
-# Getting Started with Create React App
+# Create a New React App (using Create React App)
+
+It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production. You’ll need to have Node >= 14.0.0 and npm >= 5.6 on your machine. To create a project, run:
+
+**Note**: npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2+.
+```
+npx create-react-app my-app
+cd my-app
+npm start
+```
+
+
+
+## Quick Reference
+
+| Project | Tech Stack | Source Code |
+| --- | --- | --- |
+| Setup React App | React | <ul><li>- [x] [index.html](https://github.com/deltanode/100DaysofCode/blob/main/08.1-setup-react-app-using-create-react-app/public/index.html)</li><li>- [x] [index.js](https://github.com/deltanode/100DaysofCode/blob/main/08.1-setup-react-app-using-create-react-app/src/index.js)</li><li>- [x] [App.js](https://github.com/deltanode/100DaysofCode/blob/main/08.1-setup-react-app-using-create-react-app/src/App.js)</li><li>- [x] [App.test.js](https://github.com/deltanode/100DaysofCode/blob/main/08.1-setup-react-app-using-create-react-app/src/App.test.js)</li><li>- [x] [setupTest.js](https://github.com/deltanode/100DaysofCode/blob/main/08.1-setup-react-app-using-create-react-app/src/setupTests.js)</li></ul> |
+
+
+## Project Structure 📂
+```
+├── public
+│   ├── index.html
+│   └── manifest.json
+│   └── robots.txt
+│   └── favicon.ico
+│   └── logo192.png
+│   └── logo512.png
+├── src
+│   ├── index.js
+│   ├── index.css
+│   ├── App.js
+│   ├── App.css
+│   ├── App.test.js
+│   ├── setupTest.js
+│   ├── reportWebVitals.js
+│   └── logo.svg
+├── node_modules
+├── package-lock.json
+├── package.json
+├── .gitignore
+└── README.md
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
