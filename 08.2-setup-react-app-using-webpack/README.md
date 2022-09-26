@@ -15,19 +15,20 @@ Prerequisites concepts to know
 
 ## Project Structure 📂
 ```
-├── public
-│   ├── index.html
-│   └── main.css
-├── src
-│   ├── components
-│   │   │── App.js
-│   │   │── Header.js
-│   │   │── Card.js
-│   │   └── Footer.js
-│   ├── index.js
 ├── node_modules
 ├── package-lock.json
 ├── package.json
 ├── webpack.config.js
-└── README.md
+├── README.md
+├── public
+│   ├── index.html
+│   └── main.css
+└── src
+    ├── components
+    │   │── App.js
+    │   │── Header.js
+    │   │── Card.js
+    │   └── Footer.js
+    └── index.js
+
 ```
