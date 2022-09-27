@@ -14,7 +14,7 @@
 # 100DaysofCode
 Repository dedicated to my #100DaysOfCode journey 
 
-<!--
+
 | S.No | Project | Tech Stack | Action | Link |
 | --- | --- | --- | --- | --- |
 | 1 | Todo App| Express & MongoDB | [Code](01-todo-app) | |
@@ -22,10 +22,16 @@ Repository dedicated to my #100DaysOfCode journey
 | 3 | Image Editor| Vanilla Javascript | [Code](03-image-editor) | [➥ Live Preview](https://deltanode.github.io/100DaysofCode/03-image-editor/) |
 | 4 | Responsive Ecommerce Website| Html, CSS & JavaScript | [Code](04-responsive-ecommerce-website) | [➥ Live Preview](https://deltanode.github.io/100DaysofCode/04-responsive-ecommerce-website/) |
 | 5 | Responsive Plant Website| Html, CSS & JavaScript | [Code](05-responsive-plant-website) | [➥ Live Preview](https://deltanode.github.io/100DaysofCode/05-responsive-plant-website/) |
--->
+| 6 | Qr Code Component | Html, CSS & JavaScript | [Code](https://github.com/deltanode/frontend-mentor-challenges/tree/main/qr-code-component) | [➥ Live Preview](https://deltanode.github.io/frontend-mentor-challenges/qr-code-component) |
+| 7 | Stats Preview Card Component | Html, CSS & JavaScript | [Code](https://github.com/deltanode/frontend-mentor-challenges/tree/main/stats-preview-card-component) | [➥ Live Preview](https://deltanode.github.io/frontend-mentor-challenges/stats-preview-card-component/) |
+| 8 | Setup React App (using Create React App) | React | [Code](https://github.com/deltanode/100DaysofCode/tree/main/08.1-setup-react-app-using-create-react-app) | |
+|   | Setup React App (Using Webpack)| React | [Code](https://github.com/deltanode/100DaysofCode/tree/main/08.2-setup-react-app-using-webpack) | |
+| 9 | React Concepts | React | [Code](https://github.com/deltanode/100DaysofCode/tree/main/08.3-react-getting-started) | |
+| 10 | Task App | React | [Code](https://github.com/deltanode/100DaysofCode/tree/main/08.4-react-task-app) | |
 
 
 
+<!-- 
 | S.No | Screenshot |Project | Tech Stack | Action | Link |
 | --- | --- | --- | --- | --- | --- |
 | 1 | |Todo App| Express & MongoDB | [Code](01-todo-app) | |
@@ -33,3 +39,6 @@ Repository dedicated to my #100DaysOfCode journey
 | 3 | <img src="/preview/03-image-editor.png" width="200px" height="100px"> |Image Editor| Vanilla Javascript | [Code](03-image-editor) | [🔴 Live Preview](https://deltanode.github.io/100DaysofCode/03-image-editor/) |
 | 4 | <img src="/preview/04-ecommerce-website.png" width="200px" height="100px"> |Responsive Ecommerce Website| Html, CSS & JavaScript | [Code](04-responsive-ecommerce-website) | [🔴 Live Preview](https://deltanode.github.io/100DaysofCode/04-responsive-ecommerce-website/) |
 | 5 | |Responsive Plant Website| Html, CSS & JavaScript | [Code](05-responsive-plant-website) | [🔴 Live Preview](https://deltanode.github.io/100DaysofCode/05-responsive-plant-website/) |
+| 6 | | Qr Code Component | | [Code](#) | |
+| 6 | | Qr Code Component | | [Code](#) | |
+ -->
