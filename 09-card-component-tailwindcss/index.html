@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/output.css" />
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <title>TailwindCSS - Getting Started</title>
+  </head>
+  <body class="font-Poppins grid place-content-center min-h-screen">
+    <!-- CARD -->
+    <div class="flex flex-col max-w-[350px] shadow-md rounded-md">
+      <img class="max-h-36 object-cover rounded-t-md" src="./assets/img/burger.jpg" alt="burger dish" />
+
+      <div class="p-4">
+        <h1 class="text-xl mb-1">Burger Tower</h1>
+        <h2 class="text-sm text-zinc-600 mb-4">4.8/5 Stars (413 Reviews)</h2>
+        <p class="text-xs mb-2">$$ - American, Burger</p>
+        <p class="text-xs text-zinc-600 mb-4">Well-known burger franchise serving grilled burgers, fries & shakes.</p>
+        <div class="flex gap-x-2">
+          <button class="btn bg-custom-purple btn-hover">View Website</button>
+          <button class="btn bg-custom-blue btn-hover">Order Curbside</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
