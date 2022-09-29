@@ -1,3 +1,7 @@
-body {
-  /* background-color: antiquewhite; */
+* {
+  box-sizing: border-box;
+}
+
+.orange {
+  color: orange;
 }
