@@ -29,6 +29,7 @@ Repository dedicated to my #100DaysOfCode journey
 | 9 | React Concepts | React | [Code](https://github.com/deltanode/100DaysofCode/tree/main/08.3-react-getting-started) | |
 | 10 | Task App | React | [Code](https://github.com/deltanode/100DaysofCode/tree/main/08.4-react-task-app) | |
 | 11 | Product Card Component | Tailwind CSS | [Code](https://github.com/deltanode/100DaysofCode/tree/main/09-card-component-tailwindcss) | [➥ Live Preview](https://deltanode.github.io/100DaysofCode/09-card-component-tailwindcss/) |
+| 12 | Modern Landing Page | Tailwind CSS | [Code](https://github.com/deltanode/100DaysofCode/tree/main/10-modern-landing-page-tailwindcss) | [➥ Live Preview](https://deltanode.github.io/100DaysofCode/10-modern-landing-page-tailwindcss/) |
 
 
 
