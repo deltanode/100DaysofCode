@@ -12,7 +12,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      Poppins: ["Poppins, sans-sarif"]
+      Poppins: ["Poppins, sans-serif"]
     },
     container: {
       center: true,
